@@ -1,0 +1,99 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0px;
+}
+
+#root {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.body2 {
+  font-weight: 600 !important;
+}
+
+.skyflow-text {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: white;
+}
+
+.security {
+  height: 100%;
+}
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #00000047;
+  /* box-shadow: 0 0 1px rgba(255, 255, 255, 0.5); */
+  /* background-color: #b9b9b9;
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.5); */
+}
+
+/* input field autofill styles */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: inherit;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+@keyframes flash {
+  0% {
+    left: -10%;
+    top: 0;
+  }
+  50% {
+    left: 55%;
+    top: 0;
+  }
+  100% {
+    left: 100%;
+    top: 0;
+  }
+}
+
+.bold600 {
+  font-weight: 600 !important;
+}
+
+@keyframes loader-animation {
+  0% {
+    width: 100px;
+  }
+  100% {
+    width: 100%;
+  }
+}
