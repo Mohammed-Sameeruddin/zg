@@ -29,3 +29,17 @@ This React Template contains
 
 - Start the application using `npm start`
 - Build the project using `npm run build`
+
+
+# Reactive Progamming
+> Core features
+- new programming paradigm
+- aysnc and non blocking
+- functional style code
+- event driven
+- back pressure on data streams
+> Specification
+
+- Project React library for spring boot - Flux and Mono are data types
+
+
