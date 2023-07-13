@@ -359,3 +359,5 @@ dist/bundle.js
 
 #Env file
 .env.development
+
+.scannerwork
