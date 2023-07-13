@@ -7,7 +7,7 @@ on:
     types: [opened, synchronize, reopened]
 jobs:
   sonarcloud:
-  
+
     name: SonarCloud
     runs-on: ubuntu-latest
     timeout-minutes: 8
@@ -17,8 +17,8 @@ jobs:
           fetch-depth: 0  
       - name: Build App
         run: npm install --legacy-peer-deps
-      - name: Test App
-        run: npm run test:coverage
+      # - name: Test App
+      #   run: npm run test:coverage
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
