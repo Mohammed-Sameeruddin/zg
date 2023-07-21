@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0  
-      - name: Build App
+      - name: Build app
         run: npm install --legacy-peer-deps
       - name: Test App
         run: npm run test:coverage
